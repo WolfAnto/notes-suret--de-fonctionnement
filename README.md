@@ -147,19 +147,46 @@ Inconvénients :
 • Une complexité accrue et donc une analyse d’erreurs plus difficile.
 • Une impossibilité de virtualisation. ( système non pris en charge ou dégradation des perf. trop
 importante).
-
 ```
 
+## Type de virtualisation
 ```
+Emulation matérielle
+Virtualisation totale
+Para virtualisation
+Virtualisation au niveau matériel
 ```
 
+## La virtualisation d’applications
 ```
+Wine
+Sandbox
+App-V
+LXC
+Docker
 ```
 
+## Solutions serveurs
 ```
+VmWare ESX
+Hyper-V
+KVM
+XEN
+Virtualbox
+Proxmox
 ```
 
+## Virtualisation du poste de travail
 ```
+Client léger & Client zéro
+
+Avantages :
+- L’indépendance vis-à-vis du matériel;
+- Le déploiement rapide des nouvelles applications et des mises à jour
+- La surveillance centralisée des performances
+- La gestion des modifications apportées aux postes par les utilisateurs
+- La possibilité de réduire la consommation électrique
+
 ```
 
 ```
