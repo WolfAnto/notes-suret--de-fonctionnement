@@ -60,8 +60,7 @@ Sauvegarde :
 ```
 Assurer le bon fonctionnement d'un service 24H/24
 FMD désigne le triptyque Fiabilité , Maintenabilité , Disponibilité
-Les indicateurs FMD permettent de classer les machines selon leurs valeurs et de décider d'une politique
-ou des priorités d'action circonstanciées.
+Les indicateurs FMD permettent de classer les machines selon leurs valeurs et de décider d'une politique ou des priorités d'action circonstanciées.
 ```
 
 ## Les différentes Solutions
@@ -81,8 +80,7 @@ ou des priorités d'action circonstanciées.
 ```
 
 ```
-Le RAID permet de sécuriser les données, améliorer les performances
-et garantir la haute disponibilité de celles-ci.
+Le RAID permet de sécuriser les données, améliorer les performances et garantir la haute disponibilité de celles-ci.
 Créer des snapshots
 ```
 
@@ -104,9 +102,7 @@ Vlan : vlan0
 
 ## Virtualisation
 ```
-La virtualisation est un processus qui va permettre de masquer, d'émuler et de partager des
-caractéristiques physiques d’une ressource informatique de manière à en simplifier la gestion et les interactions
-avec un ou plusieurs systèmes, applications et utilisateurs.
+La virtualisation est un processus qui va permettre de masquer, d'émuler et de partager des caractéristiques physiques d’une ressource informatique de manière à en simplifier la gestion et les interactions avec un ou plusieurs systèmes, applications et utilisateurs.
 ```
 
 ## Virtualisation de réseaux
@@ -133,10 +129,8 @@ Ces environnements isolés sont appelés serveurs privés virtuels ou émulateur
 ```
 Avantages :
 • Optimisation de l’infrastructure, de la charge de travail des serveurs
-• Une réduction de l’infrastructure physique et des économies d’´énergies.
-(équipements,alimentation climatisation...)
-• Une reprise automatique lors des incidents, sauvegarde et restauration et
-migration facilitées des systèmes virtualisés.
+• Une réduction de l’infrastructure physique et des économies d’´énergies. (équipements,alimentation climatisation...)
+• Une reprise automatique lors des incidents, sauvegarde et restauration et migration facilitées des systèmes virtualisés.
 • Optimisation de la sécurité et la sûreté de ses données par cloisonnement
 • Une installation, un démarrage rapide et une sauvegarde d'état.
 
@@ -145,8 +139,7 @@ Inconvénients :
 • Nécessite des machine puissantes (CPU, mémoire, disques ..) et spécifiques.
 • Une dégradation des performances (temps de réponse …)
 • Une complexité accrue et donc une analyse d’erreurs plus difficile.
-• Une impossibilité de virtualisation. ( système non pris en charge ou dégradation des perf. trop
-importante).
+• Une impossibilité de virtualisation. ( système non pris en charge ou dégradation des perf. trop importante).
 ```
 
 ## Type de virtualisation
@@ -222,16 +215,37 @@ Méthodologie :
 >  Sauvegarde réseau
 ```
 
+## Stockage locale
 ```
-```
-
-```
-```
-
-```
+> DAS (Direct Attached Storage)
+> RAID 0 : n'est pas une redondance mais une association de disques (Plus rapide)
+> Remarque : Un RAID ne remplace pas les sauvegardes
 ```
 
+## Stockage en réseau
 ```
+> NAS (Network Attached Storage), Serveur de fichier
+> SAN (Storage Area Network) , réseau de stockage fiable et dédié
+```
+
+## Réplication de données
+```
+> réplication synchrone
+L'écriture des données se fait en temps réel sur tous les disques (locaux et distants).
+
+> réplication asynchrone
+L'écriture ne se fait que sur le disque répliqué et les opérations sont empilées avant d'être écrits sur les autres
+
+> réplication semi-synchrone
+C'est un compromis entre la réplication synchrone et la réplication asynchrone. L'écriture est réalisée sur le disque répliqué, et une fois qu'elle est terminée, elle est répliquée sur les disques distants.
+
+> réplication périodique
+C'est une solution d'économie de la bande passante. Les données sont écrites localement sur le disque répliqué, mais l'opération de réplication n'intervient que périodiquement à des moments bien définis, comme la nuit.
+```
+
+## Hyperconvergence
+```
+L'infrastructure hyperconvergée est un type d'infrastructure informatique distribuée dans lequel le stockage partagé est délivré non pas par une baie de stockage SAN ou NAS, mais par une couche logicielle exploitant la capacité des disques durs installés dans les serveurs eux-mêmes.
 ```
 
 
