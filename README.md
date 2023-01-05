@@ -126,9 +126,28 @@ Exemples :
 
 ## Les machines virtuelles
 ```
+Consiste à partager ou émuler les ressources physiques du serveur pour chaque système d’exploitation.
+Ces environnements isolés sont appelés serveurs privés virtuels ou émulateurs. 
 ```
 
 ```
+Avantages :
+• Optimisation de l’infrastructure, de la charge de travail des serveurs
+• Une réduction de l’infrastructure physique et des économies d’´énergies.
+(équipements,alimentation climatisation...)
+• Une reprise automatique lors des incidents, sauvegarde et restauration et
+migration facilitées des systèmes virtualisés.
+• Optimisation de la sécurité et la sûreté de ses données par cloisonnement
+• Une installation, un démarrage rapide et une sauvegarde d'état.
+
+Inconvénients :
+• La panne d'une machine physique impacte plusieurs environnements virtuels
+• Nécessite des machine puissantes (CPU, mémoire, disques ..) et spécifiques.
+• Une dégradation des performances (temps de réponse …)
+• Une complexité accrue et donc une analyse d’erreurs plus difficile.
+• Une impossibilité de virtualisation. ( système non pris en charge ou dégradation des perf. trop
+importante).
+
 ```
 
 ```
