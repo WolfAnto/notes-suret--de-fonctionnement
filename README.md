@@ -20,7 +20,7 @@ Valeur = confidentialité * intégrité * disponibilité
 politique de sécurité = empecher, détecter, intervenir
 ```
 
-##PCA/PRA
+## PCA/PRA
 ```
 Risques physiques :
 - Désastre naturel
@@ -64,7 +64,7 @@ Les indicateurs FMD permettent de classer les machines selon leurs valeurs et de
 ou des priorités d'action circonstanciées.
 ```
 
-##Les différentes Solutions
+## Les différentes Solutions
 ```
 -Redondance
 	>sauvegarde, réplication, partage
