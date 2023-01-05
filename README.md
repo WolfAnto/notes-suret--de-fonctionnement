@@ -83,6 +83,7 @@ ou des priorités d'action circonstanciées.
 ```
 Le RAID permet de sécuriser les données, améliorer les performances
 et garantir la haute disponibilité de celles-ci.
+Créer des snapshots
 ```
 
 ```
@@ -92,10 +93,56 @@ c. Services de partitions partagées : SAN (Storage Area Network)
 ```
 
 ```
+Agrégation Ethernet : bond0
+```
+```
+Pont/bridge : br0
+```
+```
+Vlan : vlan0
+```
 
+## Virtualisation
+```
+La virtualisation est un processus qui va permettre de masquer, d'émuler et de partager des
+caractéristiques physiques d’une ressource informatique de manière à en simplifier la gestion et les interactions
+avec un ou plusieurs systèmes, applications et utilisateurs.
+```
+
+## Virtualisation de réseaux
+```
+Exemples :
+> VLAN
+> VPN
+```
+
+##  Cartes réseaux des Vm
+```
+> Pont (bridge)
+> Routeur avec NAT
+> Hôte seulement
+> réseau privé interne
+```
+
+## Les machines virtuelles
+```
 ```
 
 ```
+```
 
+```
+```
+
+```
+```
+
+```
+```
+
+```
+```
+
+```
 ```
 
