@@ -208,8 +208,14 @@ Méthodologie :
 ```
 > Archivage
 > Sauvegarde incrémentale
+consiste à sauvegarder, une première fois, la totalité d’une arborescence et de sauvegarder ensuite, d’une fois à l’autre, les seuls fichiers qui ont été modifiés. Elle dépend de la sauvegarde précédente ( taille constante )
+
 > La sauvegarde différentielle
+dépend de la sauvegarde seulement initiale ( taille augmente de jour en jour ) 
+
 > Tour de Hanoï
+double sauvegarde des changements, différence sur 2 jour au maximum (Pour un cycle d’une semaine : 0 3 2 5 4 7 6)
+
 > Sauvegarde physique de disques et de systèmes de fichiers
 > Sauvegarde Bare Metal
 >  Sauvegarde réseau
