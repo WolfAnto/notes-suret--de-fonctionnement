@@ -181,14 +181,57 @@ Proxmox
 Client léger & Client zéro
 
 Avantages :
-- L’indépendance vis-à-vis du matériel;
+- L’indépendance vis-à-vis du matériel
 - Le déploiement rapide des nouvelles applications et des mises à jour
 - La surveillance centralisée des performances
 - La gestion des modifications apportées aux postes par les utilisateurs
 - La possibilité de réduire la consommation électrique
-
 ```
 
+## Gérer les espaces de stockage
+```
+Gérer les disques
+Organiser l'arborescence (physique et logique) 
+Protéger , contrôler, sécuriser
+Gérer, Surveiller l'espace disques
+Organiser l'intégrité, sauvegardes et synchro
+
+Méthodologie :
+> Sauvegarder
+> Consigner
+> Etablir des procédures
+> Faire de la prévention
+```
+
+## Les différentes types de stockage
+```
+> bandes magnétiques (Archivage)
+> disques magnétiques (Haute disponibilité)
+> Disques flash (Haute disponibilité)
+> Disques optiques (Archivage)
+```
+
+## Méthodes de sauvegarde et archivage
+```
+> Archivage
+> Sauvegarde incrémentale
+> La sauvegarde différentielle
+> Tour de Hanoï
+> Sauvegarde physique de disques et de systèmes de fichiers
+> Sauvegarde Bare Metal
+>  Sauvegarde réseau
+```
+
 ```
 ```
+
+```
+```
+
+```
+```
+
+```
+```
+
 
